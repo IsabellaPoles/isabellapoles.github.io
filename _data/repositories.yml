@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - isabellapoles
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - isabellapoles/Retinal-Vessels-Segmentation
+  - isabellapoles/AI-utilities
+  - isabellapoles/bmcv-candies 
+
