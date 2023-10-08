@@ -2,19 +2,19 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: 
+description:
 nav: true
 nav_order: 3
 ---
 
 ## GitHub users
 
-{% if site.data.repositories.github_users %}
+<!-- {% if site.data.repositories.github_users %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for user in site.data.repositories.github_users %}
     {% include repository/repo_user.html username=user %}
   {% endfor %}
-</div> 
+</div>
 
 ---
 
@@ -22,17 +22,18 @@ nav_order: 3
 {% for user in site.data.repositories.github_users %}
   {% if site.data.repositories.github_users.size > 1 %}
   <h4>{{ user }}</h4>
-	@@ -27,13 +27,13 @@ nav_order: 3
+  {% endif %}
+  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% include repository/repo_trophies.html username=user %}
   </div>
-  --- 
-  
+
+  ---
 
 {% endfor %}
 {% endif %}
-{% endif %}
+{% endif %} -->
 
-## GitHub Repositories 
+## GitHub Repositories
 
 {% if site.data.repositories.github_repos %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
